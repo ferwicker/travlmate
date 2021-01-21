@@ -10,7 +10,7 @@ function goToDashboard(){
     console.log(pathname);  // check pathname
     
     if(pathname !== '/travlmate/dashboard/index.html'){ 
-        window.location.pathname="/travelmate/dashboard/index.html"; //navigate to dashboard
+        window.location.pathname="/travlmate/dashboard/index.html"; //navigate to dashboard
     } 
     
     if(pathname === '/travlmate/dashboard/index.html'){ 
