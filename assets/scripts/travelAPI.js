@@ -9,22 +9,22 @@ function goToDashboard(){
     var pathname = window.location.pathname;
     console.log(pathname);  // check pathname
     
-    /* if(pathname !== '/travlmate/dashboard/index.html'){ 
+    if(pathname !== '/travlmate/dashboard/index.html'){ 
         window.location.pathname="/travlmate/dashboard/index.html"; //navigate to dashboard
     } 
     
     if(pathname === '/travlmate/dashboard/index.html'){ 
         location.reload(); //RELOAD DASHBOARD TO STOP INTERVAL
-    } */
+    } 
 
-    
+    /*
     if(pathname !== '/Users/ferwicker/Documents/BOOTCAMP/PROJECT-1/TravelMate/dashboard/index.html'){ //LOCAL TESTING ONLY
         window.location.assign('/Users/ferwicker/Documents/BOOTCAMP/PROJECT-1/TravelMate/dashboard/index.html'); //navigate to dashboard
     }
     
     if(pathname === '/Users/ferwicker/Documents/BOOTCAMP/PROJECT-1/TravelMate/dashboard/index.html'){ //LOCAL TESTING ONLY
         location.reload(); //RELOAD DASHBOARD TO STOP INTERVAL
-    }
+    } */
 }
 
 function getTravelData () { 
