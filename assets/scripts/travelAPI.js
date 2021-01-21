@@ -9,11 +9,11 @@ function goToDashboard(){
     var pathname = window.location.pathname;
     console.log(pathname);  // check pathname
     
-    if(pathname !== '/Travelmate/dashboard/index.html'){ 
-        window.location.pathname="/Travelmate/dashboard/index.html"; //navigate to dashboard
+    if(pathname !== '/travlmate/dashboard/index.html'){ 
+        window.location.pathname="/travelmate/dashboard/index.html"; //navigate to dashboard
     } 
     
-    if(pathname === '/Travelmate/dashboard/index.html'){ 
+    if(pathname === '/travlmate/dashboard/index.html'){ 
         location.reload(); //RELOAD DASHBOARD TO STOP INTERVAL
     }
 
